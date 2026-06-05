@@ -1,5 +1,5 @@
 import { View } from "react-native";
-import NavButton from "./navButton";
+import NavButton from "./NavButton";
 
 export default function NavContainer() {
   return (

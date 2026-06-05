@@ -1,4 +1,4 @@
-import DayInfo from "./dayInfo";
+import DayInfo from "./DayInfo";
 import ThemeToggle from "./ThemeToggle";
 
 import { View } from "react-native";
