@@ -1,11 +1,14 @@
-import { Pressable, Text, View } from "react-native";
+import { Link } from "expo-router";
+import { Pressable, Text } from "react-native";
+
+import { layout } from "./navigationStyle";
 
 export default function NavButton({ href, title }) {
   return (
-    <View>
+    <Link href={href} style={layout.navButton} asChild>
       <Pressable>
         <Text>{title}</Text>
       </Pressable>
-    </View>
+    </Link>
   );
 }

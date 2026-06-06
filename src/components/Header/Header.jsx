@@ -2,11 +2,12 @@ import DayInfo from "./DayInfo";
 import ThemeToggle from "./ThemeToggle";
 
 import { View } from "react-native";
+import { layout } from "./headerStyle";
 
-export default function Header() {
+export default function Header({ Date, DayNumber }) {
   return (
-    <View>
-      <DayInfo />
+    <View style={layout.container}>
+      <DayInfo Date={Date} DayNumber={DayNumber} />
       <ThemeToggle />
     </View>
   );

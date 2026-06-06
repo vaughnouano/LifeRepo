@@ -4,7 +4,13 @@ export default function RootLayout() {
   return (
     <Stack
       screenOptions={{
-        headerShown: true,
+        headerShown: false,
+        contentStyle: {
+          paddingTop: 60,
+          paddingBottom: 30,
+          paddingHorizontal: 16,
+          backgroundColor: "transparent",
+        },
       }}
     />
   );

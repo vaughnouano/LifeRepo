@@ -1,10 +1,11 @@
 import { Text, View } from "react-native";
+import { layout } from "./headerStyle";
 
-export default function DayInfo() {
+export default function DayInfo({ Date, DayNumber }) {
   return (
-    <View>
-      <Text>THU</Text>
-      <Text>Day 56</Text>
+    <View style={layout.dayInfo} asChild>
+      <Text>{Date}</Text>
+      <Text>Day {DayNumber}</Text>
     </View>
   );
 }
