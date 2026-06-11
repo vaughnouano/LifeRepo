@@ -15,19 +15,18 @@ export const layout = StyleSheet.create({
   themeToggleContainer: {
     height: 32,
     gap: 2,
-    flexDirection: "row",
     padding: 2,
-    backgroundColor: "#000000",
+    borderRadius: 9999,
+    flexDirection: "row",
   },
   themeToggleButton_active: {
-    justifyContent: "center",
-
+    borderRadius: 9999,
     padding: 6,
-    backgroundColor: "#ffffff",
+    justifyContent: "center",
   },
   themeToggleButton: {
-    justifyContent: "center",
-
+    borderRadius: 9999,
     padding: 6,
+    justifyContent: "center",
   },
 });

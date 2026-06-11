@@ -1,10 +1,11 @@
 import { Image, Pressable, View } from "react-native";
+import { color } from "../../constants/color";
 import { layout } from "./headerStyle";
 
 export default function ThemeToggle() {
   return (
-    <View style={layout.themeToggleContainer}>
-      <Pressable style={layout.themeToggleButton_active}>
+    <View style={[layout.themeToggleContainer, color.bg_clr_200]}>
+      <Pressable style={[layout.themeToggleButton_active, color.bg_clr_100]}>
         <View>
           <Image
             source={require("../../../assets/images/light_mode_Active.png")}
