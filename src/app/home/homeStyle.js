@@ -10,7 +10,6 @@ export const layout = StyleSheet.create({
     flex: 1,
     paddingVertical: 12,
     paddingHorizontal: 8,
-
-    backgroundColor: "#000000",
+    borderRadius: 12,
   },
 });

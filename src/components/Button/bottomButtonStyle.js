@@ -5,7 +5,6 @@ export const layout = StyleSheet.create({
     paddingHorizontal: 8,
     paddingVertical: 12,
 
-    backgroundColor: "#ffc933",
     justifyContent: "space-between",
   },
   button: {
@@ -13,7 +12,7 @@ export const layout = StyleSheet.create({
     paddingVertical: 16,
 
     alignItems: "center",
-
-    backgroundColor: "#ffffff",
+    borderWidth: 2,
+    borderRadius: 32,
   },
 });

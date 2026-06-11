@@ -7,8 +7,6 @@ export const layout = StyleSheet.create({
 
     flexDirection: "row",
     alignItems: "center",
-
-    backgroundColor: "#ff3535",
   },
 
   navButton: {
@@ -16,7 +14,5 @@ export const layout = StyleSheet.create({
     paddingVertical: 16,
 
     alignItems: "center",
-
-    backgroundColor: "#ffffff",
   },
 });
