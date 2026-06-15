@@ -4,6 +4,7 @@ export const layout = StyleSheet.create({
   container: {
     padding: 4,
     gap: 3,
+    borderRadius: 24,
 
     flexDirection: "row",
     alignItems: "center",
@@ -12,6 +13,7 @@ export const layout = StyleSheet.create({
   navButton: {
     flex: 1,
     paddingVertical: 16,
+    borderRadius: 20,
 
     alignItems: "center",
   },
